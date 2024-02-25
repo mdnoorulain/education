@@ -26,17 +26,17 @@ const Footer = () => {
         <div>
           <div className="font-bold mb-6">Services</div>
           <div className="flex flex-col gap-4">
-            <a href="#" className="text-sm hover:underline">
+            <a href=" " target="#" className="text-sm hover:underline">
               Web Design
             </a>
-            <a href="#" className="text-sm hover:underline">
+            <a href=" " target="#" className="text-sm hover:underline">
               Web Development
             </a>
-            <a href="#" className="text-sm hover:underline">
+            <a href=" " target="#" className="text-sm hover:underline">
               {" "}
               Science
             </a>
-            <a href="#" className="text-sm hover:underline">
+            <a href=" " target="#" className="text-sm hover:underline">
               Digital Marketing
             </a>
           </div>
@@ -44,16 +44,16 @@ const Footer = () => {
         <div>
           <div className="font-bold mb-6">Company</div>
           <div className="flex flex-col gap-4">
-            <a href="#" className="text-sm hover:underline">
+            <a href=" " target="#" className="text-sm hover:underline">
               Privacy Policy
             </a>
-            <a href="#" className="text-sm hover:underline">
+            <a href=" " target="#" className="text-sm hover:underline">
               Sitemap
             </a>
-            <a href="#" className="text-sm hover:underline">
+            <a href=" " target="#" className="text-sm hover:underline">
               Careers
             </a>
-            <a href="#" className="text-sm hover:underline">
+            <a href=" " target="#" className="text-sm hover:underline">
               Terms & Conditions
             </a>
           </div>
@@ -63,16 +63,16 @@ const Footer = () => {
           <div className="text-sm mb-4">skillexlearning@gmail.com</div>
           <div className="text-sm">+959883271929</div>
           <div className="flex gap-4 mt-4">
-            <a href="#" className="hover:scale-110 text-xl">
+            <a href=" " target="#" className="hover:scale-110 text-xl">
               <BsFacebook />
             </a>
-            <a href="#" className="hover:scale-110 text-xl">
+            <a href=" " target="#" className="hover:scale-110 text-xl">
               <BsInstagram />
             </a>
-            <a href="#" className="hover:scale-110 text-xl">
+            <a href=" " target="#" className="hover:scale-110 text-xl">
               <BsTwitter />
-            </a>
-            <a href="#" className="hover:scale-110 text-xl">
+            </a> 
+            <a href=" " target="#" className="hover:scale-110 text-xl">
               <BsPinterest />
             </a>
           </div>
