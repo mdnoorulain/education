@@ -1,12 +1,12 @@
 import React, { useEffect, useState } from "react";
-import { navLinks } from "../../Data";
+import { logo, navLinks } from "../../Data";
 import { HiMenuAlt1, HiX } from "react-icons/hi";
 import MobileNavLinks from "./MobileNavLinks";
 import NavLink from "./NavLink";
-import { motion } from "framer-motion";
-const Navbar = () => {
+import { motion } from "framer-motion";const Navbar = () => {
   const [toggle, setToggle] = useState(false);
   const [active, setActive] = useState(null);
+  
   useEffect(() => {
     const scrollActive = () => {
       setActive(window.scrollY > 20);
@@ -31,8 +31,13 @@ const Navbar = () => {
               className="text-3xl sm:hidden cursor-pointer"
               onClick={() => setToggle(true)}
             />
-            <div className="text-xl text-Teal uppercase tracking-wide font-bold">
-              Skillex
+            
+            <div className="text-xl text-Teal uppercase tracking-wide font-bold  flex items-center justify-between">
+            {logo.map((log) => (
+              <img src={log} alt="mtzlogo"  className="w-10 h-10 "/>
+          ))}
+              MTZIC EDUCATION
+              
             </div>
           </div>
           <div className="sm:flex items-center hidden">

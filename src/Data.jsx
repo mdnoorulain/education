@@ -18,7 +18,11 @@ import logo3 from "./assets/logo3.png";
 import logo4 from "./assets/logo4.png";
 import logo5 from "./assets/logo5.png";
 import logo6 from "./assets/logo6.png";
+import mtzlogo from "./assets/mtzlogo.png"
 
+export const logo= [
+    mtzlogo
+];
 export const navLinks = [
   {
     id: 1,
