@@ -27,7 +27,7 @@ const Home = () => {
         <div>
           <div className="font-bold text-xs text-Teal mb-4">
             {" "}
-            your e-learning partner
+            your e-learning platform
           </div>
           <div className="sm:text-[2.5rem] text-[1.825rem] font-bold">
             This is <br /> the new way <br /> to learn online
@@ -53,7 +53,7 @@ const Home = () => {
         <p className="text-center text-xl">
           We collaborate with{" "}
           <span className="text-Teal">
-            100+ leading universities ans companies
+            10+ leading schools and coachings.
           </span>
         </p>
         <motion.div

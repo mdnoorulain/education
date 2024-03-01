@@ -5,7 +5,7 @@ const Contact = () => {
     <div className="section" id="contact">
       <div className="text-center max-w-[600px] mx-auto">
         <div className="sm:text-3xl text-2xl font-bold mb-5">
-        Contact us 📞
+        Contact <span className="text-Teal">us</span> 📞
         </div>
         <p className="text-sm leading-7 text-gray">
         There are a ways you can get in touch with me. Hope to hear from you soon:)
@@ -21,7 +21,7 @@ const Contact = () => {
             method="POST"
           >
             <div className=" gap-4 w-full">
-              <div className="flex flex-col my-2">
+              <div className="flex flex-col items-center justify-center my-2">
                 <input
                   type="text"
                   name="name"
@@ -29,7 +29,7 @@ const Contact = () => {
                   className="sm:p-3 p-2 outline-none text-sm shadow-md sm:w-full w-60  rounded-lg"
                 />
               </div>
-              <div className="flex flex-col my-2">
+              <div className="flex flex-col items-center justify-center my-2">
                 <input
                   type="text"
                   name="phone"
@@ -38,7 +38,7 @@ const Contact = () => {
                 />
               </div>
 
-              <div className="flex flex-col my-2">
+              <div className="flex flex-col items-center justify-center my-2">
                 <input
                   type="text"
                   name="email"
@@ -47,11 +47,11 @@ const Contact = () => {
                 />
               </div>
 
-              <div className="flex flex-col my-2">
+              <div className="flex flex-col items-center justify-center my-2">
                 <textarea
                   name="message"
                   rows="6"
-                  placeholder="Enter your Full Name"
+                  placeholder="Enter your message here..."
                   className="sm:p-3 p-2 outline-none text-sm shadow-md sm:w-full w-60 rounded-lg" 
                 ></textarea>
               </div>
