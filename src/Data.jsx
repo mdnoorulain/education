@@ -18,11 +18,9 @@ import logo3 from "./assets/logo3.png";
 import logo4 from "./assets/logo4.png";
 import logo5 from "./assets/logo5.png";
 import logo6 from "./assets/logo6.png";
-import mtzlogo from "./assets/mtzlogo.png"
+import mtzlogo from "./assets/mtzlogo.png";
 
-export const logo= [
-    mtzlogo
-];
+export const logo = [mtzlogo];
 export const navLinks = [
   {
     id: 1,
@@ -78,74 +76,42 @@ export const courses = [
   {
     id: 1,
     image: courses1,
-    category: "Web Design",
-    title: "The Complete Web Design Course",
-    rating: 4.9,
-    participants: 500,
-    price: 105,
+    title: "Teacher's day",
   },
   {
     id: 2,
     image: courses2,
-    category: "Web Development",
-    title: "FullStack Web Development Course",
-    rating: 4.8,
-    participants: 700,
-    price: 125,
+    title: "Republic day",
   },
   {
     id: 3,
     image: courses3,
-    category: "Web Development",
-    title: "Python Beginner to Advanced Course",
-    rating: 4.9,
-    participants: 300,
-    price: 99,
+    title: "Children's day",
   },
   {
     id: 4,
     image: courses4,
-    category: "Web Design",
-    title: "UI/UX Design Crazy Course With Harrys",
-    rating: 4.7,
-    participants: 600,
-    price: 85,
+    title: "Anual function",
   },
   {
     id: 5,
     image: courses5,
-    category: "AI Development",
-    title: "AI Development With Python (complete beginner course)",
-    rating: 4.9,
-    participants: 500,
-    price: 105,
+    title: "Honerable teachers",
   },
   {
     id: 6,
     image: courses6,
-    category: "Web Design",
-    title: "The Complete Web Design Course",
-    rating: 4.9,
-    participants: 500,
-    price: 105,
+    title: "most poppular",
   },
   {
     id: 7,
     image: courses7,
-    category: "Web Design",
-    title: "The Complete Web Design Course",
-    rating: 4.9,
-    participants: 500,
-    price: 105,
+    title: "Beautifull momments",
   },
   {
     id: 8,
     image: courses8,
-    category: "Web Design",
-    title: "The Complete Web Design Course",
-    rating: 4.9,
-    participants: 500,
-    price: 105,
+    title: "MTZIC festiv",
   },
 ];
 
@@ -155,17 +121,22 @@ export const accordions = [
   {
     id: 1,
     title: "What is MTZIC Education?",
+    about:
+      "MTZIC Education is a sanctuary of learning, where dreams take flight and aspirations find wings to soar. It's a symphony of knowledge, harmonizing expertise with passion, guiding students towards academic brilliance and personal growth. ",
   },
   {
     id: 2,
     title: "What can I learn from MTZIC Education?",
+    about:" MTZIC Education aims to provide comprehensive learning experiences in these subjects, led by expert instructors and tailored to meet the diverse needs of students. Whether you're preparing for exams, seeking personal enrichment, or enhancing your skills, MTZIC Education offers a platform for continuous learning and growth.",
   },
   {
     id: 3,
     title: "Can I teach on MTZIC Education?",
+    about:"To determine if you can teach on MTZIC Education, you would typically need to go through their application or hiring process. Many educational platforms and institutions have specific requirements and criteria for selecting instructors. These may include educational qualifications, teaching experience, subject expertise, and sometimes additional assessments or interviews. you can usually start by visiting their website or contacting them directly to inquire about their application process for instructors. They may provide information on how to submit your qualifications, experience, and possibly any teaching demos or samples of your work.",
   },
   {
     id: 4,
     title: "What is included in my MTZIC Education membership?",
+    about:"As an MTZIC Education member, you typically gain access to a range of benefits and resources designed to support your learning journey. While specific offerings may vary depending on the membership level and the platform's policies."
   },
 ];

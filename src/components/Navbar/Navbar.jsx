@@ -40,14 +40,12 @@ import { motion } from "framer-motion";const Navbar = () => {
               
             </div>
           </div>
-          <div className="sm:flex items-center hidden">
+          <div className="sm:flex items-center hidden ">
             {navLinks.map((navLink) => {
               return <NavLink key={navLink.id} {...navLink} />;
             })}
           </div>
-          <button className="py-3 px-6 font-bold text-sm border border-solid rounded-lg border-gray">
-            Sign Up
-          </button>
+          
           {toggle && (
             <motion.div
               initial={{ x: -500, opacity: 0 }}

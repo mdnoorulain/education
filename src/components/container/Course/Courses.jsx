@@ -27,10 +27,10 @@ const Courses = () => {
           Our Top <span className="text-Teal">Categories</span>
         </div>
         <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto">
-          Lorem ipsum dolor sit amet consectetur adipisicing elit. Labore
-          tempora illo laborum ex cupiditate tenetur doloribus non velit atque
-          amet repudiandae ipsa modi numquam quas odit optio, totam voluptate
-          sit! Lorem ipsum dolor sit amet.
+          At MTZIC Education, our top categories include math, science, social
+          studies, Urdu, general knowledge, English, and Hindi. We provide
+          comprehensive courses in each subject, taught by expert instructors to
+          ensure thorough understanding and success.
         </p>
       </div>
       <motion.div
@@ -43,7 +43,7 @@ const Courses = () => {
           return <Categories key={category.id} {...category} />;
         })}
       </motion.div>
-      <div className="text-xl font-bold mt-32">Most Popular Courses</div>
+      <div className="text-xl font-bold mt-32"> Heartwarming  <span className="text-Teal">Memories</span></div>
       <div className="mt-12 overflow-x-hidden w-full  relative">
         <div className="flex gap-8 md:w-full sm:w-[170%] xs:w-[340%] w-[480%] animate-slide">
           {courses.map((course) => {

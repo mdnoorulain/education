@@ -1,7 +1,8 @@
 import React from "react";
 import hero from "../../assets/hero.png";
-import { logos } from "../../Data";
 import { motion } from "framer-motion";
+import { MdOutlineKeyboardArrowRight } from "react-icons/md";
+import {Link} from "react-scroll"
 const Home = () => {
   const container = {
     hidden: {
@@ -22,7 +23,7 @@ const Home = () => {
     visible: { y: 0, opacity: 1 },
   };
   return (
-    <div className="section" id="home">
+    <div className="section " id="home">
       <div className="md:flex items-center justify-center">
         <div>
           <div className="font-bold text-xs text-Teal mb-4">
@@ -30,16 +31,25 @@ const Home = () => {
             your e-learning platform
           </div>
           <div className="sm:text-[2.5rem] text-[1.825rem] font-bold">
-            This is <br /> the new way <br /> to learn online
+            Embrace the <br /> New Way <br /> to Learn!
           </div>
           <p className="text-sm leading-7 text-gray max-w-sm">
-            Lorem, ipsum dolor sit amet consectetur adipisicing elit. Vero
-            officia sit vitae quo, eum similique?
+            MTZIC Education provides a supportive and conducive learning
+            environment where students can thrive and reach their full
+            potential. Join us at MTZIC Education and embark on a journey
+            towards academic excellence and success.
           </p>
-          <div className="mt-6">
-            <button className="px-6 py-3 font-bold text-white bg-Teal rounded-lg mr-4 text-sm">
+          <div className="mt-6 flex">
+            <div >
+            <Link to="about" smooth duration={500} 
+            className="group flex  px-6 py-3 font-bold text-white bg-Teal rounded-lg mr-4 text-sm cursor-pointer"
+            >
               Get Started
-            </button>
+              <span className="group-hover:rotate-90 duration-300">
+                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+              </span>
+              </Link> 
+            </div>
             <button className="px-6 py-3 font-bold border border-solid border-gray rounded-lg text-sm">
               Discover
             </button>
@@ -49,24 +59,36 @@ const Home = () => {
           <img src={hero} alt="" />
         </div>
       </div>
-      <div>
-        <p className="text-center text-xl">
-          We collaborate with{" "}
-          <span className="text-Teal">
-            10+ leading schools and coachings.
-          </span>
-        </p>
+
+      <div className=" py-8"> </div>
+
+      <div className="">
+        <div className="text-center ">
+          <div className="sm:text-3xl text-2xl font-bold mb-5">
+            We collaborate with <span className="text-Teal">other branch</span>
+          </div>
+          <p className="text-sm text-gray leading-7 max-w-[700px] mx-auto">
+            MTZIC Education fosters collaboration with other branches to enrich
+            the learning experience. Through partnerships, we expand course
+            offerings and share best practices, creating a supportive network
+            for continuous improvement. Together, we leverage expertise to
+            benefit students and communities across locations, ensuring a
+            comprehensive educational experience.
+          </p>
+        </div>
         <motion.div
           variants={container}
           initial="hidden"
           whileInView="visible"
-          className="flex items-center justify-center flex-wrap gap-8 p-2"
+          className=" flex items-center justify-center mt-6 gap-8 p-2"
         >
-          {logos.map((logo, index) => (
-            <motion.div variants={item} className="w-28" key={index}>
-              <img src={logo} alt="" className="w-full object-cover" />
+          
+            <motion.div variants={item}  >
+            <button className="px-6 py-3 font-bold text-white bg-Teal rounded-lg mr-4 text-sm">
+              View more
+            </button>
             </motion.div>
-          ))}
+          
         </motion.div>
       </div>
     </div>

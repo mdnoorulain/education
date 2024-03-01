@@ -2,7 +2,7 @@ import React from "react";
 import { Link } from "react-scroll";
 const NavLink = ({ href, link }) => {
   return (
-    <li className="list-none cursor-pointer mr-8">
+    <li className="list-none cursor-pointer mr-8 hover:scale-105 duration-200">
       <Link
         to={href}
         spy={true}

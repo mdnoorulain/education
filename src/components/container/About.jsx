@@ -11,13 +11,15 @@ const About = () => {
         <div>
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
             We provide the <br /> best{" "}
-            <span className="text-Teal">online courses</span>
+            <span className="text-Teal">offline classes</span>
           </div>
           <p className="text-sm text-gray leading-7 mb-4">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit.
-            Repudiandae, totam earum. Minus deleniti repellat id! Ratione quia
-            eum, explicabo quos eos magni vel corporis voluptatibus, inventore
-            doloremque aliquam pariatur recusandae.
+            MTZIC Education offers unparalleled offline classes tailored to your
+            needs. Our expert instructors deliver top-quality instruction across
+            various subjects, ensuring success in exams and skill development.
+            Join us for transformative learning experiences that unlock your
+            potential. Enroll now and experience the difference at MTZIC
+            Education.
           </p>
           <button className="py-3 px-6 text-sm border border-solid border-gray rounded-lg font-bold">
             Know More

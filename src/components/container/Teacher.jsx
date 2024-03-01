@@ -9,17 +9,23 @@ const Teacher = () => {
       <div className="grid sm:grid-cols-2 place-items-center gap-8">
         <div className="pl-5">
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
-            Become <span className="text-Teal">An Instructor</span> <br /> of
-            Our Platform
+            Meet <span className="text-Teal">the Mastermind</span> <br /> Behind
+            Our Institute
           </div>
           <p className="text-sm leading-7 text-gray mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-            perferendis debitis dolorum facilis culpa, quidem voluptate suscipit
-            deserunt. Magni neque at eos dolore dignissimos fugit repudiandae?
-            Aut laudantium asperiores et!
+            In the heart of every dream lies the seed of possibility, waiting to
+            be nurtured by passion and perseverance. With unwavering dedication,
+            Md Zeeshan Ashrafi planted the seeds of MTZIC Education, cultivating
+            a garden of knowledge where aspirations blossom into reality. His
+            vision illuminates the path to knowledge, fostering a community
+            where dreams take flight. With unwavering dedication, he shapes
+            futures and ignites passions. Through his leadership, MTZIC
+            Education transcends boundaries, empowering minds to soar to new
+            heights.
           </p>
           <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
-            Start Teaching
+            Know More
+            
           </button>
         </div>
         <div className="p-4 md:w-3/4 sm:row-start-1">
@@ -27,14 +33,15 @@ const Teacher = () => {
         </div>
         <div className="pl-5">
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
-            Become <span className="text-Teal">An Instructor</span> <br /> of
-            Our Platform
+            Meet <span className="text-Teal">Our Inspirational</span> <br />{" "}
+            Educator
           </div>
           <p className="text-sm leading-7 text-gray mb-5">
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Tempora
-            perferendis debitis dolorum facilis culpa, quidem voluptate suscipit
-            deserunt. Magni neque at eos dolore dignissimos fugit repudiandae?
-            Aut laudantium asperiores et!
+            Ummul Wara, a cherished educator at MTZIC Education, radiates warmth
+            and wisdom. With her nurturing spirit and boundless enthusiasm, she
+            inspires students to reach for the stars. Her dedication to
+            excellence and genuine care for each learner make her a beacon of
+            inspiration in the classroom and beyond.
           </p>
           <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
             Get Started
