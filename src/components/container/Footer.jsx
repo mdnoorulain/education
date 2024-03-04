@@ -2,12 +2,29 @@ import React from "react";
 import {
   BsFacebook,
   BsInstagram,
-  BsTwitter,
-  BsPinterest,
+  BsSnapchat,
 } from "react-icons/bs";
 import { motion } from "framer-motion";
 
 const Footer = () => {
+  const SOCIAL =[
+    {
+        id :1,
+        link: "https://www.instagram.com/mtzic_education?igsh=Mm15ajFxNnlpbDBk",
+        icon : <BsInstagram />,
+    },
+    {
+        id :2,
+        link: "https://www.facebook.com",
+        icon : <BsFacebook />,
+    },
+    {
+        id :3,
+        link: "https://sharechat.com/profile/mtziceducation?d=n",
+        icon : <BsSnapchat />,
+    },
+    
+];
   return (
     <motion.div
       initial={{ height: 0 }}
@@ -60,21 +77,14 @@ const Footer = () => {
         </div>
         <div>
           <div className="font-bold mb-6">Follow us</div>
-          <div className="text-sm mb-4">mtzeducation@gmail.com</div>
-          <div className="text-sm">+91 787719197</div>
+          <div className="text-sm mb-4">mtziceducation6@gmail.com</div>
+          <div className="text-sm">+91 6367584643</div>
           <div className="flex gap-4 mt-4">
-            <a href=" " target="#" className="hover:scale-110 text-xl">
-              <BsFacebook />
-            </a>
-            <a href=" " target="#" className="hover:scale-110 text-xl">
-              <BsInstagram />
-            </a>
-            <a href=" " target="#" className="hover:scale-110 text-xl">
-              <BsTwitter />
-            </a> 
-            <a href=" " target="#" className="hover:scale-110 text-xl">
-              <BsPinterest />
-            </a>
+            {SOCIAL.map(({id, link, icon})=>(
+                    <a href={link} target="_blank" rel='noopener noreferrer'
+                    className=' duration-200 ease-out hover:scale-110 text-xl'>
+                        {icon}</a>
+                ))}
           </div>
         </div>
       </div>

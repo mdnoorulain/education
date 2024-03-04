@@ -1,22 +1,9 @@
 import React from "react";
 import { accordions } from "../../Data";
 import Accordion from "./Accordion";
-import Model from 'react-modal'
-import { useState } from "react";
 
-const customStyles = {
-  content: {
-    top: '50%',
-    left: '50%',
-    right: 'auto',
-    bottom: 'auto',
-    marginRight: '-50%',
-    transform: 'translate(0%, -0%)'
-  },
-};
 
 const Teacher = () => {
-  const [visible, setVisible]= useState(false)
   return (
     <div className="section" id="teacher">
       <div className="grid sm:grid-cols-2 place-items-center gap-8">
@@ -28,7 +15,7 @@ const Teacher = () => {
           <p className="text-sm leading-7 text-gray mb-5">
             In the heart of every dream lies the seed of possibility, waiting to
             be nurtured by passion and perseverance. With unwavering dedication,
-            Md Zeeshan Ashrafi planted the seeds of MTZIC Education, cultivating
+            M.T.Z Ashrafi planted the seeds of MTZIC Education, cultivating
             a garden of knowledge where aspirations blossom into reality. His
             vision illuminates the path to knowledge, fostering a community
             where dreams take flight. With unwavering dedication, he shapes
@@ -55,19 +42,11 @@ const Teacher = () => {
             inspiration in the classroom and beyond.
           </p>
           <button 
-          onClick={()=>setVisible(true)}
           className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
             Get More
           </button>
 
-          <Model isOpen={visible} onRequestClose={()=>setVisible(false)}
-          style={customStyles}
-          className="font-Poppins bg-slate-500 absolute z-50 top-[50%]"
-          >
-            <h1>model onejwke</h1>
-            <button onClick={()=>setVisible(false)}>close model</button>
-
-          </Model>
+          
 
         </div>
         
