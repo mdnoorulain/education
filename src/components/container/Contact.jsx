@@ -6,7 +6,7 @@ const Contact = () => {
   const SOCIAL =[
     {
         id :1,
-        link: "https://www.instagram.com/mtzic_education?igsh=Mm15ajFxNnlpbDBk",
+        link: "https://www.youtube.com/@MTZICEDUCATION/videos",
         icon : <BsYoutube />,
     },
     {
