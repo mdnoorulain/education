@@ -14,5 +14,6 @@
   }
   .animate-slide:hover {
     animation-play-state: paused;
+    
   }
 }

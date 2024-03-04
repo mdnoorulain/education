@@ -1,9 +1,22 @@
 import React from "react";
-import teacher1 from "../../assets/teacher1.png";
-import teacher2 from "../../assets/teacher2.png";
 import { accordions } from "../../Data";
 import Accordion from "./Accordion";
+import Model from 'react-modal'
+import { useState } from "react";
+
+const customStyles = {
+  content: {
+    top: '50%',
+    left: '50%',
+    right: 'auto',
+    bottom: 'auto',
+    marginRight: '-50%',
+    transform: 'translate(0%, -0%)'
+  },
+};
+
 const Teacher = () => {
+  const [visible, setVisible]= useState(false)
   return (
     <div className="section" id="teacher">
       <div className="grid sm:grid-cols-2 place-items-center gap-8">
@@ -28,9 +41,7 @@ const Teacher = () => {
             
           </button>
         </div>
-        <div className="p-4 md:w-3/4 sm:row-start-1">
-          <img src={teacher1} alt="" />
-        </div>
+        
         <div className="pl-5">
           <div className="font-bold sm:text-[1.875rem] text-[1.5rem] mb-5">
             Meet <span className="text-Teal">Our Inspirational</span> <br />{" "}
@@ -43,13 +54,23 @@ const Teacher = () => {
             excellence and genuine care for each learner make her a beacon of
             inspiration in the classroom and beyond.
           </p>
-          <button className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
-            Get Started
+          <button 
+          onClick={()=>setVisible(true)}
+          className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold ">
+            Get More
           </button>
+
+          <Model isOpen={visible} onRequestClose={()=>setVisible(false)}
+          style={customStyles}
+          className="font-Poppins bg-slate-500 absolute z-50 top-[50%]"
+          >
+            <h1>model onejwke</h1>
+            <button onClick={()=>setVisible(false)}>close model</button>
+
+          </Model>
+
         </div>
-        <div className="p-4 md:w-3/4">
-          <img src={teacher2} alt="" />
-        </div>
+        
       </div>
       <div className="text-center my-8 font-bold sm:text-[1.875rem] text-[1.5rem]">
         Frequently <span className="text-Teal">Asked Questions</span>

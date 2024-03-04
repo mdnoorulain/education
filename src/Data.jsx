@@ -140,3 +140,11 @@ export const accordions = [
     about:"As an MTZIC Education member, you typically gain access to a range of benefits and resources designed to support your learning journey. While specific offerings may vary depending on the membership level and the platform's policies."
   },
 ];
+export const techdetails = [
+  {
+    id: 1,
+    title: "What is MTZIC Education?",
+    about:
+      "MTZIC Education is a sanctuary of learning, where dreams take flight and aspirations find wings to soar. It's a symphony of knowledge, harmonizing expertise with passion, guiding students towards academic brilliance and personal growth. ",
+  },
+];
