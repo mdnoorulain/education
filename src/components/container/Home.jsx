@@ -1,8 +1,8 @@
 import React from "react";
 import hero from "../../assets/hero.png";
-import { motion } from "framer-motion";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
-import {Link} from "react-scroll"
+import {Link as Li} from "react-scroll"
+import { Link } from "react-router-dom";
 const Home = () => {
   const container = {
     hidden: {
@@ -40,15 +40,20 @@ const Home = () => {
             towards academic excellence and success.
           </p>
           <div className="mt-6 flex">
-            <div >
-            <Link to="about" smooth duration={500} 
-            className="group flex  px-6 py-3 font-bold text-white bg-Teal rounded-lg mr-4 text-sm cursor-pointer"
-            >
-              Get Started
-              <span className="group-hover:rotate-90 duration-300">
-                <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
-              </span>
-              </Link> 
+            <div>
+
+              <Li
+                to="about"
+                smooth
+                duration={500}
+                preventScrollReset={true}
+                className="group flex  px-6 py-3 font-bold text-white bg-Teal rounded-lg mr-4 text-sm cursor-pointer"
+              >
+                Get Started
+                <span className="group-hover:rotate-90 duration-300">
+                  <MdOutlineKeyboardArrowRight size={25} className="ml-1" />
+                </span>
+              </Li>
             </div>
             <button className="px-6 py-3 font-bold border border-solid border-gray rounded-lg text-sm">
               Discover
@@ -76,20 +81,20 @@ const Home = () => {
             comprehensive educational experience.
           </p>
         </div>
-        <motion.div
+        <div
           variants={container}
           initial="hidden"
           whileInView="visible"
           className=" flex items-center justify-center mt-6 gap-8 p-2"
         >
-          
-            <motion.div variants={item}  >
-            <button className="px-6 py-3 font-bold text-white bg-Teal rounded-lg mr-4 text-sm">
-              View more
-            </button>
-            </motion.div>
-          
-        </motion.div>
+          <Link
+            variants={item}
+            to="/branch"
+            className="py-3 px-4 bg-Teal text-white rounded-lg text-sm font-bold cursor-pointer"
+          >
+            View more
+          </Link>
+        </div>
       </div>
     </div>
   );

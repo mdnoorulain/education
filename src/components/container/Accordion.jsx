@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import { BsChevronDown } from "react-icons/bs";
-import { motion, AnimatePresence } from "framer-motion";
 const Accordion = ({ id, title, about }) => {
   const [activeIndex, setActiveIndex] = useState(null);
   const handleClick = (id) => {
@@ -17,9 +16,9 @@ const Accordion = ({ id, title, about }) => {
           onClick={() => handleClick(id)}
         />
       </div>
-      <AnimatePresence>
+      <div>
         {id === activeIndex && (
-          <motion.div
+          <div
             initial={{ height: 0 }}
             animate={{ height: "auto" }}
             exit={{ height: 0 }}
@@ -29,9 +28,9 @@ const Accordion = ({ id, title, about }) => {
           >
             <p className="text-sm leading-7 text-gray">{about}
             </p>
-          </motion.div>
+          </div>
         )}
-      </AnimatePresence>
+      </div>
     </div>
   );
 };

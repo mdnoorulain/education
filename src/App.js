@@ -1,6 +1,6 @@
 
 import { BrowserRouter, Routes, Route } from "react-router-dom";
-import {HomePage, Founder,Educator,Teacher} from './routes/Routes.js'
+import {HomePage, Founder,Educator,Teacher,Branch} from './routes/Routes.js'
 
 function App() {
   return (
@@ -10,6 +10,7 @@ function App() {
         <Route path="/founder" element={<Founder />}/>
         <Route path="/educator" element={<Educator />}/>
         <Route path="/teacher" element={<Teacher />}/>
+        <Route path="/branch" element={<Branch />}/>
       </Routes>
     </BrowserRouter>
   );
