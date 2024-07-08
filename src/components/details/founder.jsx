@@ -1,6 +1,5 @@
 import React from "react";
 import founderimg from "../../assets/founder.png";
-import { Navbar } from "../../components/index";
 function founder() {
   return (
     <div class=" bg-zinc-200"> 
@@ -10,7 +9,7 @@ function founder() {
             <div class="font-Poppins bg-Solitude shadow rounded-lg p-6">
               <div class="flex flex-col items-center">
                 <img
-                  src=" "
+                  src={founderimg }
                   class="w-32 h-32 bg-gray-300 rounded-full mb-4 shrink-0"
                 ></img>
                 <h1 class="text-xl font-bold">M.T.Z Ashrafi</h1>
@@ -33,8 +32,8 @@ function founder() {
           </div>
           <div class="col-span-4 sm:col-span-9">
             <div class="font-Poppins bg-Solitude shadow rounded-lg p-6">
-              <h2 class="text-xl font-bold mb-4">About Me</h2>
-              <p class="text-gray-700">
+              <h2 class="text-xl font-bold mb-4 text-center">Mastermind Behind Our Institute</h2>
+              <p class="">
                 In the heart of every dream lies the seed of possibility,
                 waiting to be nurtured by passion and perseverance. With
                 unwavering dedication, M.T.Z Ashrafi planted the seeds of MTZIC

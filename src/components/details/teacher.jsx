@@ -1,4 +1,5 @@
 import React from "react";
+import girls from "../../assets/girls.webp";
 
 function teacher() {
   return (
@@ -9,7 +10,7 @@ function teacher() {
             <div class="font-Poppins bg-Solitude shadow rounded-lg p-6">
               <div class="flex flex-col items-center">
                 <img
-                  src=" "
+                  src={girls }
                   class="w-32 h-32 bg-gray-300 rounded-full mb-4 shrink-0"
                 ></img>
                 <h1 class="text-xl font-bold">Nayla Tabassum</h1>
@@ -33,7 +34,7 @@ function teacher() {
           </div>
           <div class="col-span-4 sm:col-span-9">
             <div class="font-Poppins bg-Solitude shadow rounded-lg p-6">
-              <h2 class="text-xl font-bold mb-4">About Me</h2>
+              <h2 class="text-xl font-bold mb-4 text-center">Our Inspirational Teacher</h2>
               <p class="text-gray-700">
                 Nayla Tabassum, a cherished educator at MTZIC Education,
                 radiates warmth and wisdom. With her nurturing spirit and

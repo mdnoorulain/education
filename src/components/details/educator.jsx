@@ -1,6 +1,5 @@
 import React from "react";
-import { Link } from "react-router-dom";
-
+import girls from "../../assets/girls.webp";
 function educator() {
   return (
     <div class="bg-zinc-200">
@@ -10,7 +9,7 @@ function educator() {
             <div class="font-Poppins bg-Solitude shadow rounded-lg p-6">
               <div class="flex flex-col items-center">
                 <img
-                  src=" "
+                  src={girls}
                   class="w-32 h-32 bg-gray-300 rounded-full mb-4 shrink-0"
                 ></img>
                 <h1 class="text-xl font-bold">Ummul Wara</h1>
@@ -33,7 +32,7 @@ function educator() {
           </div>
           <div class="col-span-4 sm:col-span-9">
             <div class="font-Poppins bg-Solitude shadow rounded-lg p-6">
-              <h2 class="text-xl font-bold mb-4">About Me</h2>
+              <h2 class="text-xl font-bold mb-4 text-center">Our Inspirational Educator</h2>
               <p class="text-gray-700">
                 Ummul Wara, a cherished educator at MTZIC Education, radiates
                 warmth and wisdom. With her nurturing spirit and boundless
