@@ -9,7 +9,7 @@ function educator() {
             <div class="font-Poppins bg-Solitude shadow rounded-lg p-6">
               <div class="flex flex-col items-center">
                 <img
-                  src={girls}
+                  src={girls} alt=""
                   class="w-32 h-32 bg-gray-300 rounded-full mb-4 shrink-0"
                 ></img>
                 <h1 class="text-xl font-bold">Ummul Wara</h1>
@@ -46,8 +46,7 @@ function educator() {
                 <a
                   class="text-gray-700 hover:text-orange-600"
                   aria-label="Visit TrendyMinds LinkedIn"
-                  href=""
-                  target="_blank"
+                  href=" " target="#"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -63,8 +62,7 @@ function educator() {
                 <a
                   class="text-gray-700 hover:text-orange-600"
                   aria-label="Visit TrendyMinds YouTube"
-                  href=""
-                  target="_blank"
+                  href=" " target="#"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -80,8 +78,7 @@ function educator() {
                 <a
                   class="text-gray-700 hover:text-orange-600"
                   aria-label="Visit TrendyMinds Facebook"
-                  href=""
-                  target="_blank"
+                  href=" " target="#"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -97,8 +94,7 @@ function educator() {
                 <a
                   class="text-gray-700 hover:text-orange-600"
                   aria-label="Visit TrendyMinds Instagram"
-                  href=""
-                  target="_blank"
+                  href=" " target="#"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -114,8 +110,7 @@ function educator() {
                 <a
                   class="text-gray-700 hover:text-orange-600"
                   aria-label="Visit TrendyMinds Twitter"
-                  href=""
-                  target="_blank"
+                  href=" " target="#"
                 >
                   <svg
                     class="h-6"

@@ -9,7 +9,7 @@ function founder() {
             <div class="font-Poppins bg-Solitude shadow rounded-lg p-6">
               <div class="flex flex-col items-center">
                 <img
-                  src={founderimg }
+                  src={founderimg } alt=""
                   class="w-32 h-32 bg-gray-300 rounded-full mb-4 shrink-0"
                 ></img>
                 <h1 class="text-xl font-bold">M.T.Z Ashrafi</h1>
@@ -50,8 +50,7 @@ function founder() {
                 <a
                   class="text-gray-700 hover:text-orange-600"
                   aria-label="Visit TrendyMinds LinkedIn"
-                  href=""
-                  target="_blank"
+                  href=" " target="#"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -67,8 +66,7 @@ function founder() {
                 <a
                   class="text-gray-700 hover:text-orange-600"
                   aria-label="Visit TrendyMinds YouTube"
-                  href=""
-                  target="_blank"
+                  href=" " target="#"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -84,8 +82,7 @@ function founder() {
                 <a
                   class="text-gray-700 hover:text-orange-600"
                   aria-label="Visit TrendyMinds Facebook"
-                  href=""
-                  target="_blank"
+                  href=" " target="#"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -101,8 +98,7 @@ function founder() {
                 <a
                   class="text-gray-700 hover:text-orange-600"
                   aria-label="Visit TrendyMinds Instagram"
-                  href=""
-                  target="_blank"
+                  href=" " target="#"
                 >
                   <svg
                     xmlns="http://www.w3.org/2000/svg"
@@ -118,8 +114,7 @@ function founder() {
                 <a
                   class="text-gray-700 hover:text-orange-600"
                   aria-label="Visit TrendyMinds Twitter"
-                  href=""
-                  target="_blank"
+                  href=" " target="#"
                 >
                   <svg
                     class="h-6"
