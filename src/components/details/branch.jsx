@@ -3,7 +3,7 @@ import hero from "../../assets/hero.png";
 import { MdOutlineKeyboardArrowRight } from "react-icons/md";
 import { Link as Li } from "react-scroll";
 import { Link } from "react-router-dom";
-const Home = () => {
+const branch = () => {
   const container = {
     hidden: {
       opacity: 0,
@@ -106,4 +106,4 @@ const Home = () => {
   );
 };
 
-export default Home;
+export default branch;
