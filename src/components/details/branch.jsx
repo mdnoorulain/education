@@ -80,13 +80,7 @@ const branch = () => {
             comprehensive educational experience.
           </p>
         </div>
-        <div class="relative w-full h-96">
-          <iframe
-            class="absolute top-0 left-0 w-full h-full"
-            src="https://www.google.com/maps/embed?pb=!4v1720977270530!6m8!1m7!1sc_QxCpfS6PPXKKJ5xW5qFg!2m2!1d28.29850279175773!2d74.9641737560782!3f285.84!4f-13.540000000000006!5f0.4000000000000002" 
-           
-          ></iframe>
-        </div>
+        
         <div
           variants={container}
           initial="hidden"

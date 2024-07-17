@@ -71,17 +71,17 @@ export const courses = [
   {
     id: 1,
     image: courses1,
-    title: "Teacher's day",
+    title: "Our Founder",
   },
   {
     id: 2,
     image: courses2,
-    title: "Republic day",
+    title: "Beautifull momments",
   },
   {
     id: 3,
     image: courses3,
-    title: "Children's day",
+    title: "Heartwarming Picture",
   },
   {
     id: 4,
@@ -91,7 +91,7 @@ export const courses = [
   {
     id: 5,
     image: courses5,
-    title: "Honerable teachers",
+    title: "Honerable Student",
   },
   {
     id: 6,
@@ -106,7 +106,7 @@ export const courses = [
   {
     id: 8,
     image: courses8,
-    title: "MTZIC festiv",
+    title: "Honerable Student",
   },
 ];
 
