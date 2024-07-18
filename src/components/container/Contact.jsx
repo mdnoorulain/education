@@ -46,10 +46,11 @@ const Contact = () => {
           className="mt-5"
         >
           <form
+          className=" gap-4 w-full"
             action="https://getform.io/f/d054a5ba-4cdf-4004-8f3a-823e5abd1095"
             method="POST"
           >
-            <div className=" gap-4 w-full">
+            
               <div className="flex flex-col items-center justify-center my-2">
                 <input
                   type="text"
@@ -84,7 +85,7 @@ const Contact = () => {
                   className="sm:p-3 p-2 outline-none text-sm shadow-md sm:w-full w-60 rounded-lg"
                 ></textarea>
               </div>
-            </div>
+            
             <div className=" flex items-center justify-center">
               <button className="text-sm text-white bg-Teal sm:p-3 p-2 rounded-lg shadow-md font-bold">
                 send message

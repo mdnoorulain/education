@@ -131,7 +131,7 @@ const branch = () => {
         </div>
         <div class="flex justify-end mt-10 relative w-full h-96">
           <iframe
-            src="https://www.google.com/maps/embed?pb=!4v1721238742880!6m8!1m7!1sc_QxCpfS6PPXKKJ5xW5qFg!2m2!1d28.29850279175773!2d74.9641737560782!3f285.84!4f-13.540000000000006!5f0.4000000000000002"
+            src="https://www.google.com/maps/embed?pb=!4v1721284909978!6m8!1m7!1sPWKcPpXcUQr732RMsdqUgg!2m2!1d28.30157235806992!2d74.95424965432542!3f54.70279721841004!4f54.117808516209095!5f2.6000648139005027"
             width={400}
             title="This is a un"
             height={300}
